@@ -1,5 +1,7 @@
 # Simple AI for color guessing
 
+![color ai](./assets/images/thumbnail.JPG)
+
 ### Using the [brain.js](https://github.com/brainjs/brain.js) library 🤖
 
 Simple AI which is able to differentiate between
