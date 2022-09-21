@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Color AI</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <script src="//unpkg.com/brain.js" defer></script>
+    <script type="module" src="./js/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="section section-center">
+      <header>
+        <h1>Color AI</h1>
+        <h4>
+          train your A.I. to differentiate between dark and bright color shades
+        </h4>
+      </header>
+      <div class="container">
+        <div class="color-container">
+          <div class="color">
+            <div class="text-container">
+              <p>AI guess <i class="fa-solid fa-robot"></i></p>
+              <p class="guess">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button id="white-btn" class="btn">white shade</button>
+          <button id="print-btn" class="btn">print results</button>
+          <button id="black-btn" class="btn">black shade</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
