@@ -1,4 +1,4 @@
-# AI for color guessing
+# Simple AI for color guessing
 
 ### Using the [brain.js](https://github.com/brainjs/brain.js) library 🤖
 
