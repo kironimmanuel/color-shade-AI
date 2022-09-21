@@ -36,7 +36,7 @@ const setRandomColor = () => {
   };
   const guess = net.run(color)[0];
   guessEl.style.color = guess > 0.5 ? '#fff' : '#000';
-  guessEl.textContent = guess > 0.5 ? 'White' : 'Black';
+  guessEl.textContent = guess > 0.5 ? 'Bright Hue' : 'Dark Hue';
   colorEl.style.backgroundColor = `rgba(${color.r * 255}, ${color.g * 255}, ${
     color.b * 255
   })`;
